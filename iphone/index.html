@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Image Accordion セクション - プレビュー</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="image-accordion.css" />
+</head>
+<body>
+
+<section class="ia-section" data-image-accordion>
+  <div class="ia-header">
+    <span class="ia-eyebrow">Craftsmanship</span>
+    <h2 class="ia-title">選ぶ理由は、ひとつじゃない。</h2>
+    <p class="ia-lead">
+      素材、つくり手の技術、日々の使い心地。それぞれの項目をタップして、
+      私たちがこだわり続けている理由をご覧ください。
+    </p>
+  </div>
+
+  <div class="ia-accordion" role="list">
+
+    <button class="ia-item is-active" role="listitem" style="--ia-delay:0ms">
+      <span class="ia-item__media" style="background-image:url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&q=80');"></span>
+      <span class="ia-item__scrim"></span>
+      <span class="ia-item__body">
+        <span class="ia-item__index">01</span>
+        <span class="ia-item__title">素材へのこだわり</span>
+        <span class="ia-item__desc">
+          長く使えるものを届けたい。だから私たちは、耐久性と質感の両方を満たす素材だけを選び抜いています。
+        </span>
+        <a href="#" class="ia-item__link">詳しく見る →</a>
+      </span>
+    </button>
+
+    <button class="ia-item" role="listitem">
+      <span class="ia-item__media" style="background-image:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80');"></span>
+      <span class="ia-item__scrim"></span>
+      <span class="ia-item__body">
+        <span class="ia-item__index">02</span>
+        <span class="ia-item__title">手仕事の技術</span>
+        <span class="ia-item__desc">
+          一つひとつ、職人の手によって丁寧に仕上げられています。均一な量産品にはない表情がここにあります。
+        </span>
+        <a href="#" class="ia-item__link">詳しく見る →</a>
+      </span>
+    </button>
+
+    <button class="ia-item" role="listitem">
+      <span class="ia-item__media" style="background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80');"></span>
+      <span class="ia-item__scrim"></span>
+      <span class="ia-item__body">
+        <span class="ia-item__index">03</span>
+        <span class="ia-item__title">日々の使い心地</span>
+        <span class="ia-item__desc">
+          手に取った瞬間からわかる違いを。毎日使うものだからこそ、細部の感触にまでこだわりました。
+        </span>
+        <a href="#" class="ia-item__link">詳しく見る →</a>
+      </span>
+    </button>
+
+    <button class="ia-item" role="listitem">
+      <span class="ia-item__media" style="background-image:url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1200&q=80');"></span>
+      <span class="ia-item__scrim"></span>
+      <span class="ia-item__body">
+        <span class="ia-item__index">04</span>
+        <span class="ia-item__title">環境への配慮</span>
+        <span class="ia-item__desc">
+          資材の調達から梱包まで、環境負荷をできる限り抑える方法を選び続けています。
+        </span>
+        <a href="#" class="ia-item__link">詳しく見る →</a>
+      </span>
+    </button>
+
+  </div>
+</section>
+
+<script src="image-accordion.js"></script>
+</body>
+</html>
